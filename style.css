@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+/* https://stackoverflow.com/a/53286330/3769 */
+.egg {
+    display: block;
+    width: 60px;
+    height: 90px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25;
+  background-color: #fff;
+}
+
+.visibleEgg {
+  border-color: #C1E0FF; 
+  border-width: 1px;
+  border-style: solid;
+}
+
